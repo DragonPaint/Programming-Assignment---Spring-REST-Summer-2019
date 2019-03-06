@@ -1,19 +1,22 @@
 package com.JavaAssignment.SummerJob.model;
 
-import java.util.UUID;
+
+import com.fasterxml.jackson.annotation.JsonProperty;
 
 public class Website {
-    private final UUID name;
+    private final String name;
     private final String url;
     private final Integer searches;
 
-    public Website(UUID name, String url, Integer searches) {
+    public Website(@JsonProperty("name") String name,
+                   @JsonProperty("url") String url,
+                   @JsonProperty("searches") Integer searches) {
         this.name = name;
         this.url = url;
         this.searches = searches;
     }
 
-    public UUID getName() {
+    public String getName() {
         return name;
     }
 

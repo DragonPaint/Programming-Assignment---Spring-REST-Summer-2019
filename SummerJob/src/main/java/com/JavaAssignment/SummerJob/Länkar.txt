@@ -1,0 +1,6 @@
+https://howtodoinjava.com/spring-restful/spring-restful-client-resttemplate-example/
+https://howtodoinjava.com/spring-boot2/resttemplate-post-json-example/
+https://howtodoinjava.com/spring-boot/spring-boot-tutorial-with-hello-world-example/
+https://howtodoinjava.com/spring-boot2/rest-api-example/
+https://dzone.com/articles/spring-boot-restful-web-service-complete-example
+https://howtodoinjava.com/spring5/webmvc/controller-getmapping-postmapping/

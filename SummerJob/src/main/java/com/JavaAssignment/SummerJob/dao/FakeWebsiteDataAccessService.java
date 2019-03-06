@@ -1,24 +1,22 @@
 package com.JavaAssignment.SummerJob.dao;
 
 import com.JavaAssignment.SummerJob.model.Website;
+import org.springframework.stereotype.Repository;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.UUID;
 
+
+@Repository("fakeDao")
 public class FakeWebsiteDataAccessService implements WebsiteDao {
 
     private static List<Website> DB = new ArrayList<>();
 
-        @Override
-    public int insertWebsite(UUID name, Website website) {
-            DB.add(new Website(name, website.getUrl()));
-        return 0;
-    }
-
+// mabye change int to string
     @Override
-    public int insertWebsite(UUID name, String url) {
-        DB.add(new Website(name, website.getUrl));
-        return 0;
+    public String insertWebsite(String name, Website website, Integer searches) {
+        DB.add(new Website(name, website.getUrl(),searches = 0));
+        return "Ok";
     }
 }
+

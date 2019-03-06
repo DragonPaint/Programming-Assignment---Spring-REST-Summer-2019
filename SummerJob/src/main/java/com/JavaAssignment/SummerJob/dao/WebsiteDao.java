@@ -1,10 +1,15 @@
 package com.JavaAssignment.SummerJob.dao;
 
-import java.util.UUID;
+import com.JavaAssignment.SummerJob.model.Website;
+
+
 
 public interface WebsiteDao {
 
-    int insertWebsite(UUID name, Website website);
+    String insertWebsite(String name, Website website, Integer searches);
+
+    //String getOnePerson();
+
 
 
 }
