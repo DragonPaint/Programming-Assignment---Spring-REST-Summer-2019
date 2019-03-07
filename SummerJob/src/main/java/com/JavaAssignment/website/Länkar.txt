@@ -1,0 +1,8 @@
+https://howtodoinjava.com/spring-restful/spring-restful-client-resttemplate-example/
+https://howtodoinjava.com/spring-boot2/resttemplate-post-json-example/
+https://howtodoinjava.com/spring-boot/spring-boot-tutorial-with-hello-world-example/
+https://howtodoinjava.com/spring-boot2/rest-api-example/
+https://dzone.com/articles/spring-boot-restful-web-service-complete-example
+https://howtodoinjava.com/spring5/webmvc/controller-getmapping-postmapping/
+https://medium.com/@rasheedamir/spring-mvc-how-to-pass-list-of-values-as-url-parameters-5d57dcac8457
+https://stackoverflow.com/questions/49670209/can-spring-map-post-parameters-by-a-way-other-than-requestbody
