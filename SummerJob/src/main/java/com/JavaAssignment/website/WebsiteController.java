@@ -5,14 +5,18 @@ import org.springframework.web.bind.annotation.*;
 
 import java.util.List;
 
-@RequestMapping
 @RestController
 public class WebsiteController {
 
     @Autowired
     private WebsiteService websiteService;
+    //  "Input with POST through JSON at localhost:8080/add"
+    //  "Get individual object through localhost:8080/getUrl?name={name of saved url}"
+    //  "Get all objects through localhost:8080/getAll"
 
-    @GetMapping
+
+
+    @GetMapping("/getAll")
     public List<Website> getAllWebsites() {
         return websiteService.getAllWebsites();
     }
@@ -22,8 +26,8 @@ public class WebsiteController {
         return websiteService.getWebsite(name);
     }
 
-//    @PatchMapping("/add")
- //   public String addWebsite(@RequestParam(value="name")String name , @RequestParam(value="url") String url){
-   //     return websiteService.addWebsite(name, url);
-   // }
+    @PostMapping("/add")
+    public void addWebsite(@RequestBody Website website){
+         websiteService.addWebsite(website);
+    }
 }
